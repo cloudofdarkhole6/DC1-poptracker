@@ -1,0 +1,107 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#00000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Norune",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "norune_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Matataki",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "matataki_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Queens",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "queens_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Muska Lacka",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "muska_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Yellow Drops",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "yellow_drops_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Dark Haven Castle",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "dark_haven_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "style": "wrap",
+                "type": "recentpins",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "tabbed_maps_horizontal"
+          }
+        }
+      ]
+    }
+  }
+}

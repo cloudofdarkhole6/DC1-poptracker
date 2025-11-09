@@ -1,0 +1,11 @@
+
+Tracker:AddLayouts("layouts/settings_popup.json")
+Tracker:AddLayouts("layouts/tabs.json")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/norune.json")
+Tracker:AddLayouts("layouts/matataki.json")
+Tracker:AddLayouts("layouts/queens.json")
+Tracker:AddLayouts("layouts/muska_lacka.json")
+Tracker:AddLayouts("layouts/yellow_drops.json")
+Tracker:AddLayouts("layouts/dark_haven_castle.json")

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Toan",
+    "type": "toggle",
+    "img": "images/items/",
+    "img_mods": "",
+    "codes": "toan"
+  },
+  {
+    "name": "Xiao",
+    "type": "toggle",
+    "img": "images/items/",
+    "img_mods": "",
+    "codes": "xiao"
+  },
+  {
+    "name": "Progressive Players House",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_players_house"
+  },
+  {
+    "name": "Progressive Gaffers Buggy",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_gaffers_buggy"
+  },
+  {
+    "name": "Progressive Paiges House",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_paiges_house"
+  },
+  {
+    "name": "Progressive Matataki River",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 8,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_matataki_river"
+  },
+  {
+    "name": "Progressive Cacaos House",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_cacaos_house"
+  },
+  {
+    "name": "Progressive Kings Hideout",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_kings_hideout"
+  },
+  {
+    "name": "Progressive Sisters House",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "initial_quantity": 0,
+    "img": "images/items/.png",
+    "img_mods": "",
+    "codes": "progressive_sisters_house"
+  }
+]

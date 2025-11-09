@@ -1,0 +1,17 @@
+{
+  "name": "Dark Cloud 1 Archipelago",
+  "game_name": "Dark Cloud",
+  "package_version": "0.0.0",
+  "package_uid": "dark_cloud_1_ap",
+  "author": "Cloudofdarkhole6",
+  "variants": {
+    "Map Tracker": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  },
+  "versions_url": "https://raw.githubusercontent.com/cloudofdarkhole6/repo/main/versions.json",
+  "min_poptracker_version": "0.27.0"
+}
