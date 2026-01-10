@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Norune",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "children": [
+      {
+        "name": "Mayor's House",
+        "map_locations": [
+          {
+            "map": "Norune",
+            "x": "275",
+            "y": "230"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Table chest"
+          },
+          {
+            "name": "Bed chest"
+          },
+
+          {
+            "name": "Chair chest"
+          },
+
+          {
+            "name": "Closet chest"
+          },
+          {
+            "name": "Mr. Prickles' Gift"
+          }
+        ]
+      },
+      {
+        "name": "Player's House",
+        "map_locations": [
+          {
+            "map": "Norune",
+            "x": "750",
+            "y": "120"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Storage"
+          },
+          {
+            "name": "Inside - Bed"
+          },
+          {
+            "name": "Inside - Table"
+          },
+          {
+            "name": "Inside - Sink"
+          },
+          {
+            "name": "Barn - Rake"
+          },
+          {
+            "name": "Barn - Feed"
+          },
+          {
+            "name": "Barn - Through"
+          },
+          {
+            "name": "Outside - Barrels"
+          },
+          {
+            "name": "Outside - Fence"
+          },
+          {
+            "name": "Outside - Stairs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Macho's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Cabinet"
+      },
+      {
+        "name": "Inside - Punching Bag"
+      },
+      {
+        "name": "Inside - Bed"
+      },
+      {
+        "name": "Inside - Table"
+      },
+      {
+        "name": "Outside - Left Side"
+      },
+      {
+        "name": "Outside - Behind"
+      }
+    ]
+  },
+  {
+    "name": "Laura's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Shelf"
+      },
+      {
+        "name": "Inside - Bed"
+      },
+      {
+        "name": "Inside - Sink"
+      },
+      {
+        "name": "Inside - Cabin"
+      },
+      {
+        "name": "Outside -Tricycle"
+      },
+      {
+        "name": "Outside - Behind"
+      }
+    ]
+  },
+  {
+    "name": "Paige's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Cabin"
+      },
+      {
+        "name": "Inside - Upstairs"
+      },
+      {
+        "name": "Inside - Bed"
+      },
+      {
+        "name": "Outside - Behind"
+      },
+      {
+        "name": "Outside - Wheel"
+      }
+    ]
+  },
+  {
+    "name": "Claude's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Bed"
+      },
+      {
+        "name": "Inside - Corner"
+      },
+      {
+        "name": "Inside - Cabin"
+      },
+      {
+        "name": "Inside - Sink"
+      },
+      {
+        "name": "Outside - Behind"
+      },
+      {
+        "name": "Outside - Candy Box"
+      }
+    ]
+  },
+  {
+    "name": "Hag's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Table"
+      },
+      {
+        "name": "Inside - Fireplace"
+      },
+      {
+        "name": "Inside - Sink"
+      },
+      {
+        "name": "Inside - Cabin"
+      },
+      {
+        "name": "Outside - Front"
+      },
+      {
+        "name": "Outside - Small Jar"
+      }
+    ]
+  },
+  {
+    "name": "Alnet's House",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Sink"
+      },
+      {
+        "name": "Inside - Table"
+      },
+      {
+        "name": "Barn - Buckets"
+      },
+      {
+        "name": "Barn - Hay"
+      },
+      {
+        "name": "Barn - Through"
+      },
+      {
+        "name": "Barn - Cabin"
+      },
+      {
+        "name": "Outside - Barrels"
+      },
+      {
+        "name": "Outside - Barn Door"
+      }
+    ]
+  },
+  {
+    "name": "Gaffers's Buggy",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Front"
+      },
+      {
+        "name": "Behind"
+      }
+    ]
+  },
+  {
+    "name": "Drans's Windmill",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Inside - Front Barrels"
+      },
+      {
+        "name": "Inside - Back Barrels"
+      },
+      {
+        "name": "Inside - Pillar"
+      },
+      {
+        "name": "Inside - Closet"
+      },
+      {
+        "name": "Inside - Stairs Mid"
+      },
+      {
+        "name": "Inside - Stairs Top"
+      },
+      {
+        "name": "Inside - Under Stairs"
+      },
+      {
+        "name": "Outside - Right"
+      },
+      {
+        "name": "Outside - Left"
+      },
+      {
+        "name": "Horned Key Chest"
+      }
+    ]
+  },
+  {
+    "name": "Norune Pond",
+    "map_locations": [
+      {
+        "map": "Norune",
+        "x": "750",
+        "y": "120"
+      }
+    ],
+    "sections": [
+      {
+        "name": "Norune Pond Chest"
+      }
+    ]
+  }
+]

@@ -3,11 +3,11 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "Dungeons",
+        "title": "World",
         "content": {
           "type": "map",
           "maps": [
-            "Dungeons"
+            "World"
           ]
         }
       }

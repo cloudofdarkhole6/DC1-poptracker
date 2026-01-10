@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Dungeons",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "children": [
+      {
+        "name": "Divine Beast Cave",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "245",
+            "y": "210"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front Atla 43"
+          },
+          {
+            "name": "Rear Atla 38",
+            "access_rules": ["$xiao_available"]
+          }
+        ]
+      },
+      {
+        "name": "Wise Owl Forest",
+        "access_rules": ["$xiao_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "210",
+            "y": "250"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front Atla 54"
+          },
+          {
+            "name": "Rear Atla 40",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Shipwreck",
+        "access_rules": ["$goro_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "100",
+            "y": "250"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front Atla 42"
+          },
+          {
+            "name": "Rear Atla 32",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Sun & Moon Temple",
+        "access_rules": ["$ruby_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "270",
+            "y": "390"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front Atla 33"
+          },
+          {
+            "name": "Rear Atla 34",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Moon Sea",
+        "access_rules": ["$ungaga_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "370",
+            "y": "150"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front Atla 29"
+          },
+          {
+            "name": "Rear Atla 27"
+          }
+        ]
+      },
+      {
+        "name": "Gallery of Time",
+        "access_rules": ["$ungaga_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "385",
+            "y": "335"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Atla 62"
+          }
+        ]
+      }
+    ]
+  }
+]

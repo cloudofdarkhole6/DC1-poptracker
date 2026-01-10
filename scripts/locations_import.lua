@@ -1,2 +1,3 @@
-Tracker:AddLocations("locations/world.json")
-
+Tracker:AddLocations("locations/Dungeons.json")
+Tracker:AddLocations("locations/Towns.json")
+Tracker:AddLocations("locations/Norune.json")

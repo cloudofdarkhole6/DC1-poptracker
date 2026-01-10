@@ -13,7 +13,3 @@ end
 function ungaga_available()
   return ruby_available() and Tracker:ProviderCountForCode("progressive_sisters_house") == 7
 end
-
-function osmond_available()
-  return ungaga_available()
-end

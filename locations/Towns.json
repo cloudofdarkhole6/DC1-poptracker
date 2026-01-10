@@ -1,0 +1,2053 @@
+[
+  {
+    "name": "Norune",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "children": [
+      {
+        "name": "Mayor's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "264",
+            "y": "209"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Table chest"
+          },
+          {
+            "name": "Bed chest"
+          },
+          {
+            "name": "Chair chest",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Closet chest",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Mr. Prickles' Gift"
+          }
+        ]
+      },
+      {
+        "name": "Players's House",
+        "access_rules": ["progressive_players_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "275",
+            "y": "209"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Storage",
+            "access_rules": ["progressive_players_house:3"]
+          },
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Sink",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Barn - Rake"
+          },
+          {
+            "name": "Barn - Feed",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Barn - Through",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Barrels",
+            "access_rules": ["progressive_players_house:2"]
+          },
+          {
+            "name": "Outside - Fence",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Stairs",
+            "access_rules": ["$xiao_available"]
+          }
+        ]
+      },
+      {
+        "name": "Macho's House",
+        "access_rules": ["progressive_machos_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "286",
+            "y": "209"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Cabinet",
+            "access_rules": ["progressive_machos_house:2"]
+          },
+          {
+            "name": "Inside - Punching Bag",
+            "access_rules": ["progressive_machos_house:2"]
+          },
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Left Side"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      },
+      {
+        "name": "Laura's House",
+        "access_rules": ["progressive_lauras_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "264",
+            "y": "220"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Shelf",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Sink",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Cabin",
+            "access_rules": ["$xiao_available, progressive_lauras_house:2"]
+          },
+          {
+            "name": "Outside - Tricycle",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Behind",
+            "access_rules": ["$xiao_available"]
+          }
+        ]
+      },
+      {
+        "name": "Paige's House",
+        "access_rules": ["progressive_paiges_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "275",
+            "y": "220"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Cabin"
+          },
+          {
+            "name": "Inside - Upstairs"
+          },
+          {
+            "name": "Inside - Fireplace",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Behind"
+          },
+          {
+            "name": "Outside - Wheel",
+            "access_rules": ["$xiao_available"]
+          }
+        ]
+      },
+      {
+        "name": "Claude's House",
+        "access_rules": ["progressive_claudes_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "286",
+            "y": "220"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bed"
+          },
+          {
+            "name": "Inside - Corner"
+          },
+          {
+            "name": "Inside - Cabin",
+            "access_rules": ["progressive_claudes_house:2"]
+          },
+          {
+            "name": "Inside - Sink",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Behind"
+          },
+          {
+            "name": "Outside - Candy Box",
+            "access_rules": ["progressive_claudes_house:3"]
+          }
+        ]
+      },
+      {
+        "name": "Hag's House",
+        "access_rules": ["progressive_hags_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "264",
+            "y": "231"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Fireplace",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Sink"
+          },
+          {
+            "name": "Inside - Cabin",
+            "access_rules": ["progressive_hags_house:2"]
+          },
+          {
+            "name": "Outside - Front"
+          },
+          {
+            "name": "Outside - Small Jar",
+            "access_rules": ["$xiao_available, progressive_hags_house:3"]
+          }
+        ]
+      },
+      {
+        "name": "Alnet's House",
+        "access_rules": ["progressive_alnets_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "275",
+            "y": "231"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Sink",
+            "access_rules": ["$xiao_available, progressive_alnets_house:2"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["progressive_alnets_house:2"]
+          },
+          {
+            "name": "Barn - Buckets"
+          },
+          {
+            "name": "Barn - Hay",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Barn - Through"
+          },
+          {
+            "name": "Barn - Cabin",
+            "access_rules": ["progressive_alnets_house:3"]
+          },
+          {
+            "name": "Outside - Barrels"
+          },
+          {
+            "name": "Outside - Barn Door"
+          }
+        ]
+      },
+      {
+        "name": "Gaffers's Buggy",
+        "access_rules": ["progressive_gaffers_buggy:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "286",
+            "y": "231"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front"
+          },
+          {
+            "name": "Behind"
+          }
+        ]
+      },
+      {
+        "name": "Dran's Windmill",
+        "access_rules": ["progressive_drans_windmill:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "269",
+            "y": "242"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Front Barrels"
+          },
+          {
+            "name": "Inside - Back Barrels",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Pillar"
+          },
+          {
+            "name": "Inside - Closet",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Stairs Mid",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Stairs Top",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Inside - Under Stairs",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Right",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Outside - Left",
+            "access_rules": ["$xiao_available"]
+          },
+          {
+            "name": "Horned Key Chest",
+            "access_rules": ["progressive_drans_windmill:5"]
+          }
+        ]
+      },
+      {
+        "name": "Norune Pond",
+        "access_rules": ["norune_pond:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "280",
+            "y": "242"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Matataki",
+    "access_rules": ["$xiao_available"],
+    "children": [
+      {
+        "name": "Overworld",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "244",
+            "y": "299"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Treant 1",
+            "access_rules": ["progressive_matataki_river:8"]
+          },
+          {
+            "name": "Treant 2",
+            "access_rules": ["progressive_matataki_river:8"]
+          },
+          {
+            "name": "Treant 3",
+            "access_rules": ["progressive_matataki_river:8"]
+          },
+          {
+            "name": "Treant 4",
+            "access_rules": ["progressive_matataki_river:8, $goro_available"]
+          },
+          {
+            "name": "Treant 5",
+            "access_rules": ["progressive_matataki_river:8, $goro_available"]
+          },
+          {
+            "name": "Near Waterfall"
+          },
+          {
+            "name": "Pond",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Near Treant",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Goro Sign",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Goro's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "255",
+            "y": "299"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Ladder",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Bucket",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Left Log"
+          },
+          {
+            "name": "Outside - Firewood"
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Up Ladder",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Pao's House",
+        "access_rules": ["progressive_paos_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "266",
+            "y": "299"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bed Table",
+            "access_rules": ["progressive_paos_house:2"]
+          },
+          {
+            "name": "Inside - Bench",
+            "access_rules": ["progressive_paos_house:2"]
+          },
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["progressive_paos_house:2"]
+          },
+          {
+            "name": "Outside - Ground"
+          },
+          {
+            "name": "Outside - Upstairs",
+            "access_rules": ["progressive_paos_house:2"]
+          },
+          {
+            "name": "Outside - Laundry",
+            "access_rules": ["progressive_paos_house:2"]
+          }
+        ]
+      },
+      {
+        "name": "Cacao's House",
+        "access_rules": ["progressive_cacaos_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "244",
+            "y": "310"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Wall Shelf",
+            "access_rules": ["progressive_cacaos_house:2"]
+          },
+          {
+            "name": "Inside - Bench",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Ground 1"
+          },
+          {
+            "name": "Outside - Ground 2"
+          },
+          {
+            "name": "Outside - Laundry",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Bunbuku's House",
+        "access_rules": ["progressive_bunbuku_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "255",
+            "y": "310"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Downstairs",
+            "access_rules": ["progressive_bunbuku_house:2"]
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["progressive_bunbuku_house:2"]
+          },
+          {
+            "name": "Outside - Barrels",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Kye's House",
+        "access_rules": ["progressive_kyes_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "266",
+            "y": "310"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Sink",
+            "access_rules": ["progressive_kyes_house:2, $goro_available"]
+          },
+          {
+            "name": "Inside - Upper Bunk",
+            "access_rules": ["progressive_kyes_house:2"]
+          },
+          {
+            "name": "Inside - Cabin",
+            "access_rules": ["progressive_kyes_house:3, $goro_available"]
+          },
+          {
+            "name": "Outside - Lower Deck",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["progressive_kyes_house:2, $goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Baron's House",
+        "access_rules": ["progressive_barons_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "244",
+            "y": "321"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Table"
+          },
+          {
+            "name": "Inside - Throne"
+          },
+          {
+            "name": "Inside - Curtain",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Ground"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      },
+      {
+        "name": "Couscous's House",
+        "access_rules": ["progressive_couscous_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "255",
+            "y": "321"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Bonsai",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Left"
+          },
+          {
+            "name": "Outside - Right",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Gob's House",
+        "access_rules": ["progressive_gobs_house:1, $goro_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "266",
+            "y": "321"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bones"
+          },
+          {
+            "name": "Inside - Bed"
+          },
+          {
+            "name": "Inside - Firewood"
+          },
+          {
+            "name": "Outside - Bones"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      },
+      {
+        "name": "Mushroom House",
+        "access_rules": ["progressive_mushroom_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "244",
+            "y": "332"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Behind Ladder"
+          },
+          {
+            "name": "Inside - By Ladder",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Up Ladder",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Inside - Top Floor",
+            "access_rules": ["$goro_available, progressive_mushroom_house:2"]
+          },
+          {
+            "name": "Inside - Sundew",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["$goro_available"]
+          },
+          {
+            "name": "Outside - Ladder",
+            "access_rules": ["$goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Watermills",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "255",
+            "y": "332"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Watermill 1 Inside - Left",
+            "access_rules": ["progressive_watermill_1:1, progressive_matataki_river:1"]
+          },
+          {
+            "name": "Watermill 1 Inside - Right",
+            "access_rules": ["progressive_watermill_1:1, progressive_matataki_river:1"]
+          },
+          {
+            "name": "Watermill 1 Outside - Left",
+            "access_rules": ["progressive_watermill_1:1, progressive_matataki_river:1"]
+          },
+          {
+            "name": "Watermill 1 Outside - Right",
+            "access_rules": ["progressive_watermill_1:1, progressive_matataki_river:1, $goro_available"]
+          },
+          {
+            "name": "Watermill 2 Inside - Left",
+            "access_rules": ["progressive_watermill_2:1, progressive_matataki_river:2"]
+          },
+          {
+            "name": "Watermill 2 Inside - Right",
+            "access_rules": ["progressive_watermill_2:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 2 Outside - Left",
+            "access_rules": ["progressive_watermill_2:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 2 Outside - Right",
+            "access_rules": ["progressive_watermill_2:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 3 Inside - Left",
+            "access_rules": ["progressive_watermill_3:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 3 Inside - Right",
+            "access_rules": ["progressive_watermill_3:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 3 Outside - Left",
+            "access_rules": ["progressive_watermill_3:1, progressive_matataki_river:2, $goro_available"]
+          },
+          {
+            "name": "Watermill 3 Outside - Right",
+            "access_rules": ["progressive_watermill_3:1, progressive_matataki_river:2, $goro_available"]
+          }
+        ]
+      },
+      {
+        "name": "Wise Owl Shop",
+        "access_rules": ["progressive_wise_owl_shop:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "266",
+            "y": "332"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Stools",
+            "access_rules": ["progressive_wise_owl_shop:2"]
+          },
+          {
+            "name": "Inside - Counter",
+            "access_rules": ["progressive_wise_owl_shop:2"]
+          },
+          {
+            "name": "Inside - Trash Left",
+            "access_rules": ["progressive_wise_owl_shop:2"]
+          },
+          {
+            "name": "Inside - Trash Right",
+            "access_rules": ["progressive_wise_owl_shop:2, $goro_available"]
+          },
+          {
+            "name": "Outside - Right"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Queens",
+    "access_rules": ["$goro_available"],
+    "children": [
+      {
+        "name": "Queens",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "139",
+            "y": "239"
+          }
+        ],
+        "sections": [
+          {
+            "name": "River Bridge",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Wall near Entrance"
+          },
+          {
+            "name": "South Area Wall"
+          },
+          {
+            "name": "Corner by Ramps",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Dock - Barrely by Shop",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Dock - Near Sub",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Dock - Near Ship",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Dock - Far end"
+          }
+        ]
+      },
+      {
+        "name": "Rando's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "150",
+            "y": "239"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor Chest"
+          },
+          {
+            "name": "Crate Chest"
+          },
+          {
+            "name": "Barrels in back Chest",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Ruty's Store",
+        "access_rules": ["progressive_rutys_store:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "161",
+            "y": "239"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Umbrella"
+          },
+          {
+            "name": "Center"
+          },
+          {
+            "name": "Washtub",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Suzy's Store",
+        "access_rules": ["progressive_suzys_store:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "139",
+            "y": "250"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Table 1"
+          },
+          {
+            "name": "Cart",
+            "access_rules": ["$ruby_available, progressive_suzys_store:2"]
+          },
+          {
+            "name": "Table 2"
+          },
+          {
+            "name": "Keg",
+            "access_rules": ["$ruby_available, progressive_suzys_store:3"]
+          }
+        ]
+      },
+      {
+        "name": "Lana's Store",
+        "access_rules": ["progressive_lanas_store:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "150",
+            "y": "250"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crates 1",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Crates 2",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Cart 3",
+            "access_rules": ["$ruby_available, progressive_lanas_store:3"]
+          },
+          {
+            "name": "Cart 2",
+            "access_rules": ["$ruby_available, progressive_lanas_store:2"]
+          }
+        ]
+      },
+      {
+        "name": "Jack's Store",
+        "access_rules": ["progressive_jacks_store:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "161",
+            "y": "250"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Crates"
+          },
+          {
+            "name": "Inside - Armor"
+          },
+          {
+            "name": "Inside - Weapons",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Inside - Bed",
+            "access_rules": ["$ruby_available, progressive_jacks_store:2"]
+          },
+          {
+            "name": "Outside - Door"
+          },
+          {
+            "name": "Outside - Roof Left",
+            "access_rules": ["progressive_jacks_store:2"]
+          },
+          {
+            "name": "Outside - Roof Right",
+            "access_rules": ["$ruby_available, progressive_jacks_store:2"]
+          }
+        ]
+      },
+      {
+        "name": "Joker's House",
+        "access_rules": ["progressive_jokers_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "139",
+            "y": "261"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Door",
+            "access_rules": ["progressive_jokers_house:1, progressive_sheriffs_office:7"]
+          },
+          {
+            "name": "Inside - Counter",
+            "access_rules": ["progressive_jokers_house:1, progressive_sheriffs_office:7"]
+          },
+          {
+            "name": "Inside - Bedroom",
+            "access_rules": ["progressive_jokers_house:1, progressive_sheriffs_office:7, $ruby_available"]
+          },
+          {
+            "name": "Outside - Ground"
+          },
+          {
+            "name": "Outside - Roof Right"
+          },
+          {
+            "name": "Outside - Pillar",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Outside - Roof Left",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Divining House",
+        "access_rules": ["progressive_divining_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "150",
+            "y": "261"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside 1",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Inside 2",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Inside 3",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Inside 4",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Outside - Front"
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["$ruby_available, progressive_divining_house:2"]
+          }
+        ]
+      },
+      {
+        "name": "Cathedral",
+        "access_rules": ["progressive_cathedral:1, $ruby_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "161",
+            "y": "261"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Entryway"
+          },
+          {
+            "name": "Inside - Plinth"
+          },
+          {
+            "name": "Inside - Left"
+          },
+          {
+            "name": "Inside - Table"
+          },
+          {
+            "name": "Inside - Right"
+          },
+          {
+            "name": "Outside - Right"
+          },
+          {
+            "name": "Outside - Left 1"
+          },
+          {
+            "name": "Outside - Left 2"
+          }
+        ]
+      },
+      {
+        "name": "Basker's Store",
+        "access_rules": ["progressive_baskers_store:1, $ruby_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "139",
+            "y": "272"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Crates"
+          },
+          {
+            "name": "Inside - Barrel"
+          },
+          {
+            "name": "Inside - Counter"
+          },
+          {
+            "name": "Outside - Upper Door",
+            "access_rules": ["progressive_baskers_store:2"]
+          },
+          {
+            "name": "Outside - Roof",
+            "access_rules": ["progressive_baskers_store:2"]
+          }
+        ]
+      },
+      {
+        "name": "King's Hideout",
+        "access_rules": ["progressive_kings_hideout:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "150",
+            "y": "272"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Table"
+          },
+          {
+            "name": "Inside - Corner"
+          },
+          {
+            "name": "Inside - Pillar",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Inside - Window",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Outside - Car",
+            "access_rules": ["progressive_kings_hideout:3"]
+          },
+          {
+            "name": "Outside - Umbrella Right",
+            "access_rules": ["progressive_kings_hideout:2"]
+          },
+          {
+            "name": "Inside - Umbrella Left",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Sheriff's Office",
+        "access_rules": ["progressive_sheriffs_office:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "161",
+            "y": "272"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Deputy desk"
+          },
+          {
+            "name": "Inside - Sheriff desk"
+          },
+          {
+            "name": "Inside - Corner",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Outside - Left"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      },
+      {
+        "name": "Queens Fountain",
+        "access_rules": ["progressive_queens_fountain:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "144",
+            "y": "283"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front"
+          },
+          {
+            "name": "Right"
+          },
+          {
+            "name": "Left",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Behind",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      },
+      {
+        "name": "Leaning Tower",
+        "access_rules": ["progressive_leaning_tower:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "155",
+            "y": "283"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest 1"
+          },
+          {
+            "name": "Chest 2",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Chest 3",
+            "access_rules": ["$ruby_available"]
+          },
+          {
+            "name": "Chest 4",
+            "access_rules": ["$ruby_available"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Muska Lacka",
+    "access_rules": ["$ruby_available"],
+    "children": [
+      {
+        "name": "Ungaga's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "179",
+            "y": "374"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Fire"
+          },
+          {
+            "name": "Inside - Crates"
+          },
+          {
+            "name": "Inside - Bow",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Totem",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Bowls",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Jibubu's House",
+        "access_rules": ["progressive_jibubus_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "190",
+            "y": "374"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - On bench",
+            "access_rules": ["progressive_jibubus_house:2"]
+          },
+          {
+            "name": "Inside - Crates",
+            "access_rules": ["progressive_jibubus_house:2"]
+          },
+          {
+            "name": "Inside - near Bench",
+            "access_rules": ["$ungaga_available, progressive_jibubus_house:2"]
+          },
+          {
+            "name": "Outside - Hay"
+          },
+          {
+            "name": "Outside - Behind"
+          }
+        ]
+      },
+      {
+        "name": "3 Sisters' House",
+        "access_rules": ["progressive_sisters_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "201",
+            "y": "374"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Small jugs"
+          },
+          {
+            "name": "Inside - Wall rug"
+          },
+          {
+            "name": "Inside - Urn"
+          },
+          {
+            "name": "Inside - Basket",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Left side"
+          },
+          {
+            "name": "Outside - Behind"
+          },
+          {
+            "name": "Outside - Right of door",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Brooke's House",
+        "access_rules": ["progressive_brookes_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "179",
+            "y": "385"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bench"
+          },
+          {
+            "name": "Inside - Urn"
+          },
+          {
+            "name": "Inside - Boomerangs",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Crates",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Front"
+          },
+          {
+            "name": "Outside - Rear right",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Rear left",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Prisoner Cabin",
+        "access_rules": ["progressive_prisoner_cabin:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "190",
+            "y": "385"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Front"
+          },
+          {
+            "name": "Cell"
+          },
+          {
+            "name": "Left",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Chief's House",
+        "access_rules": ["progressive_chiefs_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "201",
+            "y": "385"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Chief's seat"
+          },
+          {
+            "name": "Inside - Left of stairs",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Table",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Drums",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Right",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Behind",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Left",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Zabo's House",
+        "access_rules": ["progressive_zabos_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "179",
+            "y": "396"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Bowls"
+          },
+          {
+            "name": "Inside - Table"
+          },
+          {
+            "name": "Inside - Bench",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Crates",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Behind"
+          },
+          {
+            "name": "Outside - Roof left",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Roof right"
+          }
+        ]
+      },
+      {
+        "name": "Enga's House",
+        "access_rules": ["progressive_engas_house:1, $ungaga_available"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "190",
+            "y": "396"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Door",
+            "access_rules": ["progressive_engas_house:2"]
+          },
+          {
+            "name": "Inside - Bowls",
+            "access_rules": ["progressive_engas_house:2"]
+          },
+          {
+            "name": "Inside - Jar",
+            "access_rules": ["progressive_engas_house:2"]
+          },
+          {
+            "name": "Inside - Bows",
+            "access_rules": ["progressive_engas_house:2"]
+          },
+          {
+            "name": "Outside - Right of door"
+          },
+          {
+            "name": "Outside - Behind"
+          },
+          {
+            "name": "Outside - Left of door"
+          }
+        ]
+
+      },
+      {
+        "name": "Toto's House",
+        "access_rules": ["progressive_totos_house:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "201",
+            "y": "396"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Ladder",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Window",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Gosuke",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Inside - Downstairs",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Front"
+          },
+          {
+            "name": "Outside - Left side",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Outside - Right side",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Muska Lacka Oasis",
+        "access_rules": ["progressive_oasis:1"],
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "179",
+            "y": "407"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest 1"
+          },
+          {
+            "name": "Chest 2"
+          },
+          {
+            "name": "Chest 3",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Chest 4",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Chest 5",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Totem Poles",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "190",
+            "y": "407"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Totem Pole A - Right",
+            "access_rules": ["progressive_totem_pole_a:1"]
+          },
+          {
+            "name": "Totem Pole A - Left",
+            "access_rules": ["$ungaga_available, progressive_totem_pole_a:1"]
+          },
+          {
+            "name": "Totem Pole B - Right",
+            "access_rules": ["$ungaga_available, progressive_totem_pole_b:1"]
+          },
+          {
+            "name": "Totem Pole B - Left",
+            "access_rules": ["$ungaga_available, progressive_totem_pole_b:1"]
+          },
+          {
+            "name": "Totem Pole C - Right",
+            "access_rules": ["$ungaga_available, progressive_totem_pole_c:1"]
+          },
+          {
+            "name": "Totem Pole C - Left",
+            "access_rules": ["$ungaga_available, progressive_totem_pole_c:1"]
+          }
+        ]
+      },
+      {
+        "name": "Town",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "201",
+            "y": "407"
+          }
+        ],
+        "sections": [
+          {
+            "name": "SMT Entrance Left"
+          },
+          {
+            "name": "SMT Entrance Right"
+          },
+          {
+            "name": "Town Entrance Left"
+          },
+          {
+            "name": "Town Entrance Right",
+            "access_rules": ["$ungaga_available"]
+          }
+        ]
+      },
+      {
+        "name": "Temple",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "179",
+            "y": "418"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Right of stairs"
+          },
+          {
+            "name": "Right rock"
+          },
+          {
+            "name": "Right wall",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Left wall",
+            "access_rules": ["$ungaga_available"]
+          },
+          {
+            "name": "Far left"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Yellow Drops",
+    "access_rules": ["$ungaga_available"],
+    "children": [
+      {
+        "name": "Shop",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "389",
+            "y": "199"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Chest 1"
+          },
+          {
+            "name": "Inside - Chest 2"
+          },
+          {
+            "name": "Inside - Chest 3"
+          },
+          {
+            "name": "Outside - Chest"
+          }
+        ]
+      },
+      {
+        "name": "Samba's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "400",
+            "y": "199"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Chest 1"
+          },
+          {
+            "name": "Inside - Chest 2"
+          },
+          {
+            "name": "Inside - Chest 3"
+          },
+          {
+            "name": "Outside - Chest"
+          }
+        ]
+      },
+      {
+        "name": "Lumba's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "411",
+            "y": "199"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Chest 1"
+          },
+          {
+            "name": "Inside - Chest 2"
+          },
+          {
+            "name": "Inside - Chest 3"
+          },
+          {
+            "name": "Outside - Chest"
+          }
+        ]
+      },
+      {
+        "name": "Flammi's House",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "389",
+            "y": "210"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside - Chest 1"
+          },
+          {
+            "name": "Inside - Chest 2"
+          },
+          {
+            "name": "Inside - Chest 3"
+          },
+          {
+            "name": "Outside - Chest"
+          }
+        ]
+      },
+      {
+        "name": "Town",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "400",
+            "y": "210"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Path to Moon Sea"
+          },
+          {
+            "name": "Entrance path"
+          },
+          {
+            "name": "Chest near Marnia"
+          }
+        ]
+      },
+      {
+        "name": "Factory",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "411",
+            "y": "210"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor chest 1"
+          },
+          {
+            "name": "Floor chest 2"
+          },
+          {
+            "name": "Floor chest 3"
+          },
+          {
+            "name": "Observation platform"
+          },
+          {
+            "name": "Ramp by door"
+          },
+          {
+            "name": "Floor by ramp"
+          }
+        ]
+      },
+      {
+        "name": "Parts 1",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "389",
+            "y": "221"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Parts HD 1",
+            "access_rules": ["progressive_parts_hd:1"]
+          },
+          {
+            "name": "Parts HD 2",
+            "access_rules": ["progressive_parts_hd:1"]
+          },
+          {
+            "name": "Parts AMR 1",
+            "access_rules": ["progressive_parts_amr:1"]
+          },
+          {
+            "name": "Parts AMR 2",
+            "access_rules": ["progressive_parts_amr:1"]
+          },
+          {
+            "name": "Parts AML 1",
+            "access_rules": ["progressive_parts_aml:1"]
+          },
+          {
+            "name": "Parts AML 2",
+            "access_rules": ["progressive_parts_aml:1"]
+          }
+        ]
+      },
+      {
+        "name": "Parts 2",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "400",
+            "y": "221"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Parts HGR 1",
+            "access_rules": ["progressive_parts_hgr:1"]
+          },
+          {
+            "name": "Parts HGR 2",
+            "access_rules": ["progressive_parts_hgr:1"]
+          },
+          {
+            "name": "Parts HGL 1",
+            "access_rules": ["progressive_parts_hgl:1"]
+          },
+          {
+            "name": "Parts HGL 2",
+            "access_rules": ["progressive_parts_hgl:1"]
+          },
+          {
+            "name": "Parts HGR2 1",
+            "access_rules": ["progressive_parts_hgr2:1"]
+          },
+          {
+            "name": "Parts HGR2 2",
+            "access_rules": ["progressive_parts_hgr2:1"]
+          },
+          {
+            "name": "Parts HGL2 1",
+            "access_rules": ["progressive_parts_hgl2:1"]
+          },
+          {
+            "name": "Parts HGL2 2",
+            "access_rules": ["progressive_parts_hgl2:1"]
+          }
+        ]
+      },
+      {
+        "name": "Parts 3",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "411",
+            "y": "221"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Parts CT 1",
+            "access_rules": ["progressive_parts_ct:1"]
+          },
+          {
+            "name": "Parts CT 2",
+            "access_rules": ["progressive_parts_ct:1"]
+          },
+          {
+            "name": "Parts WT 1",
+            "access_rules": ["progressive_parts_wt:1"]
+          },
+          {
+            "name": "Parts WT 2",
+            "access_rules": ["progressive_parts_wt:1"]
+          },
+          {
+            "name": "Parts TIR 1",
+            "access_rules": ["progressive_parts_tir:1"]
+          },
+          {
+            "name": "Parts TIR 2",
+            "access_rules": ["progressive_parts_tir:1"]
+          },
+          {
+            "name": "Parts TIL 1",
+            "access_rules": ["progressive_parts_til:1"]
+          },
+          {
+            "name": "Parts TIL 2",
+            "access_rules": ["progressive_parts_til:1"]
+          }
+        ]
+      },
+      {
+        "name": "Parts 4",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "394",
+            "y": "232"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Parts FTR 1",
+            "access_rules": ["progressive_parts_ftr:1"]
+          },
+          {
+            "name": "Parts FTR 2",
+            "access_rules": ["progressive_parts_ftr:1"]
+          },
+          {
+            "name": "Parts FTL 1",
+            "access_rules": ["progressive_parts_ftl:1"]
+          },
+          {
+            "name": "Parts FTL 2",
+            "access_rules": ["progressive_parts_ftl:1"]
+          }
+        ]
+      },
+      {
+        "name": "Factory Lookout",
+        "map_locations": [
+          {
+            "map": "World",
+            "x": "405",
+            "y": "232"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ground",
+            "access_rules": ["progressive_lookout:1"]
+          },
+          {
+            "name": "1st Level",
+            "access_rules": ["progressive_lookout:2"]
+          },
+          {
+            "name": "2nd Level",
+            "access_rules": ["progressive_lookout:4"]
+          }
+        ]
+      }
+    ]
+  }
+]
