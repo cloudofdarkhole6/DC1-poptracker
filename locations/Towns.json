@@ -152,7 +152,7 @@
             "access_rules": ["$xiao_available"]
           },
           {
-            "name": "Inside - Behind",
+            "name": "Outside - Behind",
             "access_rules": ["$xiao_available"]
           }
         ]

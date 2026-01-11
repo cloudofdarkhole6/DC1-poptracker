@@ -1,4 +1,8 @@
 function xiao_available()
+  return Tracker:ProviderCountForCode("progressive_players_house") == 7
+end
+
+function xiao_available_world_logic()
   return Tracker:ProviderCountForCode("progressive_players_house") == 7 and Tracker:ProviderCountForCode("progressive_gaffers_buggy") == 5 and Tracker:ProviderCountForCode("progressive_paiges_house") >= 2
 end
 

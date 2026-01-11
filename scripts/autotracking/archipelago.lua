@@ -59,7 +59,7 @@ function onClearHandler(slot_data)
             ScriptHost:AddWatchForCode("StateChange", "*", StateChange)
             ScriptHost:RemoveOnFrameHandler(handlerName)
             Tracker.BulkUpdate = false
-            forceUpdate()
+            -- forceUpdate()
             print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
         end
         ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
