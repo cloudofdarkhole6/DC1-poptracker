@@ -1185,7 +1185,7 @@
             "access_rules": ["progressive_kings_hideout:2"]
           },
           {
-            "name": "Inside - Umbrella Left",
+            "name": "Outside - Umbrella Left",
             "access_rules": ["$ruby_available"]
           }
         ]
@@ -1473,8 +1473,7 @@
             "access_rules": ["$ungaga_available"]
           },
           {
-            "name": "Outside - Behind",
-            "access_rules": ["$ungaga_available"]
+            "name": "Outside - Behind"
           },
           {
             "name": "Outside - Left",

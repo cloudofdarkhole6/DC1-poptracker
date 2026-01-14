@@ -120,8 +120,8 @@ LOCATION_MAPPING = {
 	[971112028] = {"@Matataki/Cacao's House/Outside - Laundry"},
 
 	[971112029] = {"@Matataki/Bunbuku's House/Inside - Downstairs"},
-	[971112032] = {"@Matataki/Bunbuku's House/Downstairs - Behind"},
-	[971112033] = {"@Matataki/Bunbuku's House/Downstairs - Barrels"},
+	[971112032] = {"@Matataki/Bunbuku's House/Outside - Behind"},
+	[971112033] = {"@Matataki/Bunbuku's House/Outside - Barrels"},
 
 	[971112034] = {"@Matataki/Kye's House/Inside - Sink"},
 	[971112035] = {"@Matataki/Kye's House/Inside - Upper Bunk"},
