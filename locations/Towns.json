@@ -1334,7 +1334,7 @@
             "access_rules": ["progressive_jibubus_house:2"]
           },
           {
-            "name": "Inside - near Bench",
+            "name": "Inside - Near bench",
             "access_rules": ["$ungaga_available, progressive_jibubus_house:2"]
           },
           {

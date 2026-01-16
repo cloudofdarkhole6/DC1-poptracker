@@ -1,12 +1,11 @@
 {
 	"versions": [
 		{
-			"package_version": "0.0.0",
-			"download_url": "",
-			"sha256": "",
+			"package_version": "0.0.1",
+			"download_url": "https://github.com/cloudofdarkhole6/DC1-poptracker/releases/download/0.0.1/DC1-poptracker_0.0.1.zip",
+			"sha256": "a7262b677651332e7726854e7241b08b2e7c87e01808d89458b05dfe46fcedc8",
 			"changelog": [
-				"",
-				""
+				"Initial Release"
 			]
 		}
 	]
