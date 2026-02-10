@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.0.2",
 			"download_url": "https://github.com/cloudofdarkhole6/DC1-poptracker/releases/download/0.0.2/DC1-poptracker_0.0.2.zip",
-			"sha256": "fb6ad1706c1c3ce2cedfabc1b316a8dd8a83764f61014e409f078b921cb22725",
+			"sha256": "333f99dce21402f249da413ecc7c69e611a76c3de6ca954bdca1c7ae528f4c4b",
 			"changelog": [
 				"Fix a typo with 3 Sisters House for tracking 2 locations"
 			]
