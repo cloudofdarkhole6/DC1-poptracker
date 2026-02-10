@@ -276,8 +276,8 @@ LOCATION_MAPPING = {
 	[971114010] = {"@Muska Lacka/Jibubu's House/Outside - Hay"},
 	[971114011] = {"@Muska Lacka/Jibubu's House/Outside - Behind"},
 
-	[971114012] = {"@Muska Lacka/3 Sisters' House/Inside - Small Jugs"},
-	[971114013] = {"@Muska Lacka/3 Sisters' House/Inside - Wall Rug"},
+	[971114012] = {"@Muska Lacka/3 Sisters' House/Inside - Small jugs"},
+	[971114013] = {"@Muska Lacka/3 Sisters' House/Inside - Wall rug"},
 	[971114014] = {"@Muska Lacka/3 Sisters' House/Inside - Urn"},
 	[971114015] = {"@Muska Lacka/3 Sisters' House/Inside - Basket"},
 	[971114016] = {"@Muska Lacka/3 Sisters' House/Outside - Left side"},
